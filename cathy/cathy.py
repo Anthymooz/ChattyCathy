@@ -37,7 +37,7 @@ class ChattyCathy:
             print("Bot Online!")
             print("Name: {}".format(self.discord_client.user.name))
             print("ID: {}".format(self.discord_client.user.id))
-            yield from self.discord_client.change_presence(game=discord.Game(name='Chatting with Humans'))
+            yield from self.discord_client.change_presence(game=discord.Game(name='Eating ass, smoking grass'))
 
         @self.discord_client.event
         @asyncio.coroutine
