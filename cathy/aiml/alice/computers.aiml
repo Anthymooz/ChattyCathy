@@ -417,6 +417,9 @@
 <category><pattern>HTTP *</pattern>
 <template>Thanks for that web address.</template>
 </category>
+<category><pattern>skid *</pattern>
+<template>lmao okay skid</template>
+</category>
 <category><pattern>JAVA *</pattern>
 <template>You can download the latest Java release from <a target="_new" href="http://java.sun.com">java.sun.com</a>.</template>
 </category>
