@@ -48,9 +48,12 @@ class ChattyCathy:
             if message.content is None:
                 print("Empty message received.")
                 return
-
+            
             print("Message: " + str(message.content))
-
+            #i'm literally boofing shit at this point
+            if message.author == client.user:
+                return
+            
             if message.content.startswith(BOT_PREFIX):
                 # Pass on to rest of the client commands
                 yield from self.discord_client.process_commands(message)
