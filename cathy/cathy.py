@@ -61,4 +61,4 @@ class ChattyCathy:
                 yield from self.discord_client.send_message(message.channel, aiml_response)
 
     def run(self):
-        self.discord_client.run(self.token)
+        self.discord_client.run((self.token), bot=False)
