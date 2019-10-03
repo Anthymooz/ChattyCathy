@@ -51,7 +51,7 @@ class ChattyCathy:
             
             print("Message: " + str(message.content))
             #i'm literally boofing shit at this point
-            if message.author == client.user:
+            if message.author.id == 316300923339014145:
                 return
             
             if message.content.startswith(BOT_PREFIX):
